@@ -8,22 +8,22 @@
 import SwiftUI
 
 public extension Color {
-    private static let navy = Color("navy")
-    private static let textGray = Color("textGray")
-    private static let creamyGray = Color("creamyGray")
-    private static let coral = Color("coral")
-    private static let babyCoral = Color("babyCoral")
-    private static let aqua = Color("aqua")
-    private static let deepAqua = Color("deepAqua")
-    private static let navy40 = navy.opacity(0.4)
-    private static let deepAquaAlpha50 = deepAqua.opacity(0.5)
-    private static let alphaLoader = black.opacity(0.7)
-    private static let success = Color("successLight")
-    private static let warning = Color("warningLight")
-    private static let cardGreenStart = Color("cardGreenStart")
-    private static let cardGreenEnd = Color("cardGreenEnd")
-    private static let cardBlueStart = Color("cardBlueStart")
-    private static let cardBlueEnd = Color("cardBlueEnd")
+    static let navy = Color("navy")
+    static let textGray = Color("textGray")
+    static let creamyGray = Color("creamyGray")
+    static let coral = Color("coral")
+    static let babyCoral = Color("babyCoral")
+    static let aqua = Color("aqua")
+    static let deepAqua = Color("deepAqua")
+    static let navy40 = navy.opacity(0.4)
+    static let deepAquaAlpha50 = deepAqua.opacity(0.5)
+    static let alphaLoader = black.opacity(0.7)
+    static let success = Color("successLight")
+    static let warning = Color("warningLight")
+    static let cardGreenStart = Color("cardGreenStart")
+    static let cardGreenEnd = Color("cardGreenEnd")
+    static let cardBlueStart = Color("cardBlueStart")
+    static let cardBlueEnd = Color("cardBlueEnd")
     var AppLightColors: AppColors{
         return AppColors(brand: Color.aqua,
                          brandSecondary: Color.coral,
