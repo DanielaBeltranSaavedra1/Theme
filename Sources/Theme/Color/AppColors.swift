@@ -24,4 +24,23 @@ public struct AppColors {
     let  unfocusedColor: Color
     let  buttonLoader: Color
     let buttonTextDisabled: Color
+    
+    public init(brand: Color, brandSecondary: Color, screenBackground: Color, modalBackground: Color, boxBackground: Color, textFieldBackground: Color, textPrimary: Color, textSecondary: Color, textButton: Color, buttonDisabled: Color, buttonDefault: Color, buttonPressed: Color, focusedColor: Color, unfocusedColor: Color, buttonLoader: Color, buttonTextDisabled: Color) {
+        self.brand = brand
+        self.brandSecondary = brandSecondary
+        self.screenBackground = screenBackground
+        self.modalBackground = modalBackground
+        self.boxBackground = boxBackground
+        self.textFieldBackground = textFieldBackground
+        self.textPrimary = textPrimary
+        self.textSecondary = textSecondary
+        self.textButton = textButton
+        self.buttonDisabled = buttonDisabled
+        self.buttonDefault = buttonDefault
+        self.buttonPressed = buttonPressed
+        self.focusedColor = focusedColor
+        self.unfocusedColor = unfocusedColor
+        self.buttonLoader = buttonLoader
+        self.buttonTextDisabled = buttonTextDisabled
+    }
 }

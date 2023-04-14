@@ -24,7 +24,7 @@ public extension Color {
     private static let cardGreenEnd = Color("cardGreenEnd")
     private static let cardBlueStart = Color("cardBlueStart")
     private static let cardBlueEnd = Color("cardBlueEnd")
-    public var AppLightColors: AppColors{
+    var AppLightColors: AppColors{
         return AppColors(brand: Color.aqua,
                          brandSecondary: Color.coral,
                          screenBackground: Color.white,
